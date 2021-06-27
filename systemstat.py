@@ -1,4 +1,9 @@
 import psutil
 
-print(psutil.cpu_count())
-print(psutil.sensors_temperatures())
+
+
+def checktemp():
+    return psutil.sensors_temperatures()
+
+def cpunum():
+    return psutil.cpu_count()
