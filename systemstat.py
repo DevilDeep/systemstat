@@ -16,3 +16,5 @@ def getbatterydata():
 
 def getfandata():
     return psutil.sensors_fans()
+
+#this is a random line
