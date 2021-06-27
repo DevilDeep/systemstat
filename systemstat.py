@@ -13,3 +13,6 @@ def getnetaddrs():
  
 def getbatterydata():
     return psutil.sensors_battery()
+
+def getfandata():
+    return psutil.sensors_fans()
