@@ -10,3 +10,6 @@ def cpunum():
 
 def getnetaddrs():
     return psutil.net_if_addrs()
+ 
+def getbatterydata():
+    return psutil.sensors_battery()
